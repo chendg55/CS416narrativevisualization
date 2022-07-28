@@ -32,6 +32,6 @@ d3.select("svg").append("g")
  .attr("transform","translate(50,250)")
  .call(d3.axisBottom(x));
     </script>
-    <button>Nextt</button>
+    <button>Next</button>
   </body>
 </html>
