@@ -1,4 +1,4 @@
-<!DOCTYPE html>
+<!doctype html>
 <html>
   <script src='https://d3js.org/d3.v5.min.js'></script>
   <style> rect {fill: lightblue; stroke: black; }</style>
