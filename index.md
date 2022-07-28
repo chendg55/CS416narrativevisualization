@@ -9,7 +9,7 @@
   <body>
     <h1>USA COVID-19 Cases and Deaths in 2021</h1>
     <svg width=300 height=300></svg>
-    <script src="Test.js" type="text/javascript"></script>
-    <button>Nextt</button>
+    <script src="[Test.js](https://raw.githubusercontent.com/chendg55/CS416narrativevisualization/gh-pages/Test.js)" type="text/javascript"></script>
+    <button>Next</button>
   </body>
 </html>
