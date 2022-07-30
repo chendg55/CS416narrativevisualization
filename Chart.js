@@ -93,7 +93,7 @@
             .attr("y", -5)
             .attr("stroke", "steelblue")
             .attr("fill", "steelblue")
-            .style("font-size", "34px")
+            .style("font-size", "20px")
             .style("text-anchor", "middle")
             .text("Cases");
     }    
@@ -152,7 +152,7 @@
             .attr("y", -5)
             .attr("stroke", "steelblue")
             .attr("fill", "steelblue")
-            .style("font-size", "34px")
+            .style("font-size", "20px")
             .style("text-anchor", "middle")
             .text("Cases");
               
@@ -172,7 +172,7 @@
             .attr("y", height - height / 20)
             .attr("stroke", "red")
             .attr("fill", "red")
-            .style("font-size", "34px")
+            .style("font-size", "20px")
             .style("text-anchor", "middle")
             .text("Deaths");
     }
@@ -303,7 +303,7 @@
             .append("div")
             .style("position", "absolute")
             .style("visibility", "hidden")
-            .style("font-size", "34px")
+            .style("font-size", "20px")
             .style("left", width / 4)
             .style("top", height / 4)
             .html("January <br> Cases: 6,120,765 <br> Deaths: 95,987 <br> Total Cases: 6,120,765 <br> Total Deaths: 95,987");
@@ -315,7 +315,7 @@
             .append("div")
             .style("position", "absolute")
             .style("visibility", "hidden")
-            .style("font-size", "34px")
+            .style("font-size", "20px")
             .style("left", width / 4)
             .style("top", height / 4)
             .html("February <br> Cases: 2,398,659 <br> Deaths: 64,250 <br> Total Cases: 8,519,424 <br> Total Deaths: 160,237");
@@ -327,7 +327,7 @@
             .append("div")
             .style("position", "absolute")
             .style("visibility", "hidden")
-            .style("font-size", "34px")
+            .style("font-size", "20px")
             .style("left", width / 4)
             .style("top", height / 4)
             .html("March <br> Cases: 1,803,940 <br> Deaths: 36,686 <br> Total Cases: 10,323,364 <br> Total Deaths: 196,923");
@@ -339,7 +339,7 @@
             .append("div")
             .style("position", "absolute")
             .style("visibility", "hidden")
-            .style("font-size", "34px")
+            .style("font-size", "20px")
             .style("left", width / 4)
             .style("top", height / 4)
             .html("April <br> Cases: 1,860,904 <br> Deaths: 23,726 <br> Total Cases: 12,184,268 <br> Total Deaths: 220,649");
@@ -351,7 +351,7 @@
             .append("div")
             .style("position", "absolute")
             .style("visibility", "hidden")
-            .style("font-size", "34px")
+            .style("font-size", "20px")
             .style("left", width / 4)
             .style("top", height / 4)
             .html("May <br> Cases: 915,772 <br> Deaths: 18,133 <br> Total Cases: 13,100,040 <br> Total Deaths: 238,782");
@@ -363,7 +363,7 @@
             .append("div")
             .style("position", "absolute")
             .style("visibility", "hidden")
-            .style("font-size", "34px")
+            .style("font-size", "20px")
             .style("left", width / 4)
             .style("top", height / 4)
             .html("June <br> Cases: 397,959 <br> Deaths: 10,513 <br> Total Cases: 13,497,999 <br> Total Deaths: 249,295");
@@ -375,7 +375,7 @@
             .append("div")
             .style("position", "absolute")
             .style("visibility", "hidden")
-            .style("font-size", "34px")
+            .style("font-size", "20px")
             .style("left", width / 4)
             .style("top", height / 4)
             .html("July <br> Cases: 1,315,293 <br> Deaths: 8,799 <br> Total Cases: 14,813,292 <br> Total Deaths: 258,094");
@@ -387,7 +387,7 @@
             .append("div")
             .style("position", "absolute")
             .style("visibility", "hidden")
-            .style("font-size", "34px")
+            .style("font-size", "20px")
             .style("left", width / 4)
             .style("top", height / 4)
             .html("August <br> Cases: 4,250,390 <br> Deaths: 28,576 <br> Total Cases: 19,063,682 <br> Total Deaths: 286,670");
@@ -399,7 +399,7 @@
             .append("div")
             .style("position", "absolute")
             .style("visibility", "hidden")
-            .style("font-size", "34px")
+            .style("font-size", "20px")
             .style("left", width / 4)
             .style("top", height / 4)
             .html("September <br> Cases: 4,121,812 <br> Deaths: 59,977 <br> Total Cases: 23,185,494 <br> Total Deaths: 346,647");
@@ -411,7 +411,7 @@
             .append("div")
             .style("position", "absolute")
             .style("visibility", "hidden")
-            .style("font-size", "34px")
+            .style("font-size", "20px")
             .style("left", width / 4)
             .style("top", height / 4)
             .html("October <br> Cases: 2,498,528 <br> Deaths: 48,017 <br> Total Cases: 25,684,022 <br> Total Deaths: 394,664");
@@ -423,7 +423,7 @@
             .append("div")
             .style("position", "absolute")
             .style("visibility", "hidden")
-            .style("font-size", "34px")
+            .style("font-size", "20px")
             .style("left", width / 4)
             .style("top", height / 4)
             .html("November <br> Cases: 2,540,514 <br> Deaths: 34,264 <br> Total Cases: 28,224,536 <br> Total Deaths: 428,928");
@@ -435,7 +435,7 @@
             .append("div")
             .style("position", "absolute")
             .style("visibility", "hidden")
-            .style("font-size", "34px")
+            .style("font-size", "20px")
             .style("left", width / 4)
             .style("top", height / 4)
             .html("December <br> Cases: 6,135,065 <br> Deaths: 43,509 <br> Total Cases: 34,359,601 <br> Total Deaths: 472,437");
@@ -459,7 +459,7 @@
             .attr("y", -5)
             .attr("stroke", "steelblue")
             .attr("fill", "steelblue")
-            .style("font-size", "34px")
+            .style("font-size", "20px")
             .style("text-anchor", "middle")
             .text("Cases");
               
@@ -479,7 +479,7 @@
             .attr("y", height - height / 20)
             .attr("stroke", "red")
             .attr("fill", "red")
-            .style("font-size", "34px")
+            .style("font-size", "20px")
             .style("text-anchor", "middle")
             .text("Deaths");
     }
