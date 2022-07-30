@@ -8,7 +8,7 @@
   </head>
   <body onload='init()'>
     <div class="center_text">
-      <h1>USA COVID-19 Cases and Deaths in 2021</h1>
+      <h1>USA COVID-19 Cases and Deaths in 20211</h1>
     </div>
     <div class="container" id="my_dataviz"></div>
     <div class="center">
