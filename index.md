@@ -10,10 +10,10 @@
     <div class="center_text">
       <h1>USA COVID-19 Cases and Deaths in 2021</h1>
     </div>
-    <div class="container" id="my_dataviz"></div>
-    <button id="b1" class="center_text" onclick="button_1()">Cases</button>
-    <button id="b2" class="center_text" onclick="button_2()">Deaths</button>
-    <button id="b3" class="center_text" onclick="button_3()">Months</button>
+    <div class="container" id="my_dataviz" style="width:1500px; height:900px;"></div>
+    <button id="b1" class="center" onclick="button_1()">Cases</button>
+    <button id="b2" class="center" onclick="button_2()">Deaths</button>
+    <button id="b3" class="center" onclick="button_3()">Months</button>
     <script src="Chart.js" type="text/javascript"></script>
   </body>
 </html>
