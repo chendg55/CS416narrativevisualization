@@ -4,13 +4,18 @@
   <head>
     <meta charset="utf-8">
     <title>CS416 Narrative Visualization</title>
+    <link href="Style.css" rel="stylesheet" type="text/css">
   </head>
   <body onload='init()'>
-    <h1>USA COVID-19 Cases and Deaths in 2021</h1>
-    <div id="my_dataviz"></div>
-    <button id="b1" onclick="button_1()">Cases</button>
-    <button id="b2" onclick="button_2()">Deaths</button>
-    <button id="b3" onclick="button_3()">Months</button>
+    <div class="center">
+      <h1>USA COVID-19 Cases and Deaths in 2021</h1>
+    </div>
+    <div class="center" id="my_dataviz"></div>
+    <div class="center">
+      <button id="b1" onclick="button_1()">Cases</button>
+      <button id="b2" onclick="button_2()">Deaths</button>
+      <button id="b3" onclick="button_3()">Months</button>
+    </div>
     <script src="Chart.js" type="text/javascript"></script>
   </body>
 </html>
