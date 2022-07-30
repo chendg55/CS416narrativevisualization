@@ -51,8 +51,8 @@
         
         // Set margins, chart size
         const margin = { top: 30, bottom: 30, left: 60, right: 30 };
-        const width = 1500 - margin.left - margin.right;
-        const height = 900 - margin.top - margin.bottom;
+        const width = 640 - margin.left - margin.right;
+        const height = 640 - margin.top - margin.bottom;
     
         // Append the svg object to the body of the page
         const svg = d3.select("#my_dataviz")
