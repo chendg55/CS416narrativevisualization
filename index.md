@@ -10,7 +10,7 @@
     <div class="center_text">
       <h1>USA COVID-19 Cases and Deaths in 2021</h1>
     </div>
-    <div class="container" id="my_dataviz" style="width:1500px; height:900px;"></div>
+    <div class="container" id="my_dataviz"></div>
     <div class="center">
       <button id="b1" onclick="button_1()">Cases</button>
       <button id="b2" onclick="button_2()">Deaths</button>
