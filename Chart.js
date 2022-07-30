@@ -4,6 +4,8 @@
     b2.style.display = "none";
     var b3 = document.getElementById("b3");
     b3.style.display = "none";
+    var guide_text = document.getElementById("guide_text");
+    guide_text.style.display = "none";
     
     // Set margins, chart size
     const margin = { top: 30, bottom: 30, left: 60, right: 30 };
@@ -184,6 +186,12 @@
         
         // Clear svg
         d3.selectAll("svg").remove();
+        
+        // Hide/show buttons
+        var b3 = document.getElementById("b3");
+        b3.style.display = "none";
+        var guide_text = document.getElementById("guide_text");
+        guide_text.style.display = "block";
         
         // Set margins, chart size
         const margin = { top: 30, bottom: 30, left: 60, right: 30 };
