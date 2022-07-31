@@ -98,6 +98,47 @@
             .style("font-size", "20px")
             .style("text-anchor", "middle")
             .text("Cases");
+        
+        // Add annotations
+        const annotations_1 = [{
+            note: {
+                label: "Least new cases",
+                title: "June"
+            },
+            type: d3.annotationCalloutCircle,
+            subject: {
+                radius: 20,
+            },
+            color: ["blue"],
+            x: 250,
+            y: 355,
+            dx: -130,
+            dy: -306
+        }];
+        const makeAnnotations_1 = d3.annotation()
+            .annotations(annotations_1)
+        svg.append("g")
+            .call(makeAnnotations_1);
+            
+        const annotations_2 = [{
+            note: {
+                label: "Most new cases",
+                title: "December"
+            },
+            type: d3.annotationCalloutCircle,
+            subject: {
+                radius: 20,
+            },
+            color: ["blue"],
+            x: 537,
+            y: 50,
+            dx: -300,
+            dy: -1
+        }];
+        const makeAnnotations_2 = d3.annotation()
+            .annotations(annotations_2)
+        svg.append("g")
+            .call(makeAnnotations_2);
     }    
     
     function button_2() {
@@ -177,6 +218,47 @@
             .style("font-size", "20px")
             .style("text-anchor", "middle")
             .text("Deaths");
+        
+        // Add annotations
+        const annotations_1 = [{
+            note: {
+                label: "Least new cases",
+                title: "June"
+            },
+            type: d3.annotationCalloutCircle,
+            subject: {
+                radius: 20,
+            },
+            color: ["blue"],
+            x: 250,
+            y: 355,
+            dx: -130,
+            dy: -306
+        }];
+        const makeAnnotations_1 = d3.annotation()
+            .annotations(annotations_1)
+        svg.append("g")
+            .call(makeAnnotations_1);
+            
+        const annotations_2 = [{
+            note: {
+                label: "Most new cases",
+                title: "December"
+            },
+            type: d3.annotationCalloutCircle,
+            subject: {
+                radius: 20,
+            },
+            color: ["blue"],
+            x: 537,
+            y: 50,
+            dx: -300,
+            dy: -1
+        }];
+        const makeAnnotations_2 = d3.annotation()
+            .annotations(annotations_2)
+        svg.append("g")
+            .call(makeAnnotations_2);
     }
     
     function button_3() {
@@ -490,4 +572,45 @@
             .style("font-size", "20px")
             .style("text-anchor", "middle")
             .text("Deaths");
+        
+        // Add annotations
+        const annotations_1 = [{
+            note: {
+                label: "Least new cases",
+                title: "June"
+            },
+            type: d3.annotationCalloutCircle,
+            subject: {
+                radius: 20,
+            },
+            color: ["blue"],
+            x: 250,
+            y: 355,
+            dx: -130,
+            dy: -306
+        }];
+        const makeAnnotations_1 = d3.annotation()
+            .annotations(annotations_1)
+        svg.append("g")
+            .call(makeAnnotations_1);
+            
+        const annotations_2 = [{
+            note: {
+                label: "Most new cases",
+                title: "December"
+            },
+            type: d3.annotationCalloutCircle,
+            subject: {
+                radius: 20,
+            },
+            color: ["blue"],
+            x: 537,
+            y: 50,
+            dx: -300,
+            dy: -1
+        }];
+        const makeAnnotations_2 = d3.annotation()
+            .annotations(annotations_2)
+        svg.append("g")
+            .call(makeAnnotations_2);
     }
