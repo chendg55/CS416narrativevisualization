@@ -1,5 +1,6 @@
 <html>
   <script src='https://d3js.org/d3.v6.js'></script>
+  <script src="https://rawgit.com/susielu/d3-annotation/master/d3-annotation.min.js"></script>
   <style> rect {fill: gray; stroke: black; stroke-width: 2}</style>
   <head>
     <meta charset="utf-8">
